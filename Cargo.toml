@@ -1,5 +1,6 @@
 [package]
 name        = "const_type"
+description = "define enum-like const-types, but with aliases for variants"
 version     = "0.1.0"
 authors     = ["sivizius <sivizius@ohai.su>"]
 edition     = "2018"
