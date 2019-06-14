@@ -1,9 +1,0 @@
-[package]
-name        = "enum_alias"
-version     = "0.1.0"
-authors     = ["sivizius <sivizius@ohai.su>"]
-edition     = "2018"
-license     = "MIT"
-repository  = "https://github.com/sivizius/enum_alias"
-
-[dependencies]
