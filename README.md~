@@ -4,7 +4,7 @@ const_type
 define enum-like const-types, but with aliases for variants:
 
 ```rust
-  Const!
+  const!
   {
     pub Bar: usize
     {
