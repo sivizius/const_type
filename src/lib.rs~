@@ -7,7 +7,7 @@ macro_rules! Const
       $(  $Constant:ident               =   $Value:expr$(,)*    )*
     }
   ) =>  (#[derive(Copy,Clone,Debug,Eq,Hash,Ord,PartialEq,PartialOrd)]
-          $Visibility struct  $NameSpace  ( $Type );
+          $Visibility struct  $NameSpace  ( pub $Type );
           impl $NameSpace
           {
             $(
@@ -23,7 +23,7 @@ macro_rules! Const
       $(  $Constant:ident               =   $Value:expr$(,)*    )*
     }
   ) =>  (#[derive(Copy,Clone,Debug,Eq,Hash,Ord,PartialEq,PartialOrd)]
-          $Visibility struct  $NameSpace  ( usize );
+          $Visibility struct  $NameSpace  ( pub usize );
           impl $NameSpace
           {
             $(
